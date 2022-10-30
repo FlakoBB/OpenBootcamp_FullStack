@@ -1,0 +1,37 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+    font-size: 16pt;
+}
+
+.encabezado {
+    color: green;
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+
+#primera-noticia {
+    font-size: 12pt;
+    color: greenyellow;
+}
+
+#segunda-noticia {
+    font-size: 20pt;
+    color: bisque;
+}
+
+.warning {
+    color: red;
+}
+
+.autor, .libro, .fecha {
+    color: aqua;
+    font-size: 40pt;
+}
+/* comentario */
+* {
+    text-decoration: underline;
+}
