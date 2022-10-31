@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.input {
+    width: 100vw;
+    border: 2px solid #876;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+input[type="password"] {
+    color: red;
+}
+
+.input-moderno {
+    border: none;
+    border-bottom: 1px solid #888;
+    outline: none;
+    padding: 5px;
+    color: #678;
+    margin: 4px;
+}
+
+.input-moderno::placeholder {
+    color: #888;
+}
+
+.input-moderno:focus {
+    border-bottom: 2px solid #000;
+}
+
+textarea {
+    resize: none;
+}
+
+#select {
+    width: 100%;
+    background-color: aquamarine;
+}
