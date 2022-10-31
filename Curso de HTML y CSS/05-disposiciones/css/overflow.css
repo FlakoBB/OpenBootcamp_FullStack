@@ -1,0 +1,31 @@
+div {
+    margin: 20px;
+}
+
+.overflow-hidden {
+    background-color: bisque;
+    height: 100px;
+    width: 230px;
+    overflow: hidden;
+}
+
+.overflow-visible {
+    background-color: bisque;
+    height: 100px;
+    width: 230px;
+    overflow: visible;
+}
+
+.overflow-scroll {
+    background-color: bisque;
+    height: 100px;
+    width: 230px;
+    overflow: scroll;
+}
+
+.overflow-auto {
+    background-color: bisque;
+    height: 100px;
+    width: 230px;
+    overflow: auto;
+}
