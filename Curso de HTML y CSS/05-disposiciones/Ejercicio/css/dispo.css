@@ -1,0 +1,19 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.galeria {
+    display: flex;
+    background-color: aquamarine;
+    padding: 10px;
+    width: 100vw;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-galeria {
+    width: 300px;
+}
