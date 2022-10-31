@@ -1,0 +1,23 @@
+h1#h1-id.h1-class {
+    color: aqua;
+}
+
+#h1-id.h1-class {
+    color: blueviolet;
+}
+
+#h1-id {
+    color: brown;
+}
+
+.h1-class {
+    color: brown;
+}
+
+h1 {
+    color:blue !important; /* 1important da prioridad, pero evitar usar */
+}
+
+p {
+    color: #333;
+}

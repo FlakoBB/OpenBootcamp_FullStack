@@ -1,0 +1,37 @@
+.contenedor p { /* anidacion de selectores */
+    color: green;
+}
+
+/* pseudoclases */
+
+.hover {
+    background-color: aqua;
+}
+
+.hover:hover {
+    background-color: aquamarine;
+}
+
+a:link {
+    color: chocolate;
+}
+
+a:visited {
+    color: darkgoldenrod;
+}
+
+a:hover {
+    color: deeppink;
+}
+
+a:active {
+    color: yellowgreen;
+}
+
+.listado {
+    background-color: rgb(75, 75, 10);
+}
+
+.listado p:first-child {
+    color: red;
+}
