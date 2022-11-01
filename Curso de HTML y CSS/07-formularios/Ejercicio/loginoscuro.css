@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #161717;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: auto;
+    width: 450px;
+}
+
+.botones {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.google-btn {
+    background-color: #1a73eb;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.google-btn:hover {
+    opacity: .6;
+    cursor: pointer;
+}
+
+.google-btn picture {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn picture img {
+    width: 75%;
+}
+
+.google-btn span {
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.twitter-btn {
+    width: 40px;
+    background-color: rgb(80, 80, 80);
+    border-radius: 5px;
+    border: none;
+}
+
+.twitter-btn:hover {
+    background-color: rgb(160, 160, 160);
+    cursor: pointer;
+}
+
+.separador {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.separador hr {
+    /*flex-grow: 1px;*/
+    width: 100%;
+    border: none;
+    border-top: 1px solid #999;
+}
+
+.separador span {
+    color: #999;
+}
+
+.inputs {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    background-color: #212121;
+    border: none;
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 10px;
+}
+
+input:hover {
+    background-color: #454045;
+    box-shadow: 0 0 4px #ea4c89;
+    border: 1px solid #212121;
+}
+
+input:focus {
+    background-color: #454045;
+    box-shadow: 0 0 4px #ea4c89;
+    border: 1px solid #212121;
+}
+
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: auto;
+}
+
+.btn-submit {
+    background-color: #ea4c89;
+    color: white;
+    font-weight: 700;
+    font-size: 14pt;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-submit:hover {
+    opacity: .6;
+}
