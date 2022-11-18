@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    display: flex;
+    gap: .25rem;
+    height: 100vh;
+}
+
+.principal {
+    background-color: red;
+    flex-grow: 2;
+    padding: .5rem;
+}
+
+.menu {
+    background-color: blue;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: .5rem;
+}
+
+.item {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+@media (max-width: 640px) {
+    .contenedor {
+        flex-direction: column;
+    }
+
+    .principal {
+        flex-grow: 7;
+    }
+
+    .menu {
+        flex-grow: 1;
+        flex-direction: row;
+    }
+}
