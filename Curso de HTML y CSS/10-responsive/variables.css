@@ -1,0 +1,18 @@
+/* Las variables se crean en la pseudoclase :root y tienen que iniciar con doble guion (--) */
+:root {
+    --color-principal: rgb(123, 255, 0);
+    --width-principal: 400px;
+}
+
+h1 {
+    color: var(--color-principal);
+}
+
+.footer {
+    color: var(--color-principal);
+}
+
+.contenedor {
+    background-color: antiquewhite;
+    width: var(--width-principal);
+}

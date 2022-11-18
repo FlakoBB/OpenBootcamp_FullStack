@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.esenario {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+.esenario-1 {
+    font-size: 32px;
+}
+
+.esenario-2 {
+    font-size: 16px;
+}
+
+.em {
+    font-size: 2em;
+    /* em: se adapta al font-size de su contenedor */
+}
+
+.rem {
+    font-size: 2rem;
+    /* rem: se adapta al font-size del dispositivo */
+}

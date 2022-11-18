@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.esenario {
+    box-sizing: border-box;
+    border: 2px solid #333;
+    margin: 10px;
+    padding: 10px;
+}
+
+.esenario-1 {
+    width: 100%;
+}
+
+.esenario-2 {
+    width: 50%;
+}
+
+.px {
+    width: 200px;
+    background-color: green;
+}
+
+.porciento {
+    width: 50%;
+    background-color: red;
+}
+
+.view {
+    width: 50vw;
+    background-color: yellow;
+}

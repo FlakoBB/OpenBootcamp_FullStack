@@ -1,0 +1,21 @@
+.contenedor {
+    background-color: yellow;
+    display: flex;
+    min-height: 5rem;
+    padding: .5rem;
+    /* eje principal (por defecto horizontal = row) */
+    justify-content: space-evenly;
+    /* eje secundario (por defecto vertical = column) */
+    align-items: center;
+    flex-wrap: wrap; /* si no cabe un item lo pone en otra fila */
+}
+
+.item {
+    background-color: salmon;
+    padding: .25rem;
+    width: 10rem;
+}
+
+.item-2 {
+    align-self: stretch;
+}
