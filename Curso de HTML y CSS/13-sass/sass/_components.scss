@@ -1,0 +1,17 @@
+.btn {
+    border: none;
+    background-color: burlywood;
+    color: rgb(119, 98, 71);
+    padding: .5rem 1rem;
+    margin: 1rem;
+
+    &:hover {
+        color: burlywood;
+        background-color: rgb(119, 98, 71);
+    }
+}
+
+.btn-2 {
+    @extend .btn; //Hereda los estilos de .btn
+    border-radius: 4rem;
+}

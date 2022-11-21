@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: aquamarine;
+  color: #333;
+  padding: 2rem 4rem;
+  margin: 0 0 1rem 0;
+}
+
+p {
+  background-color: aquamarine;
+  color: #fabaca;
+  padding: 2rem 4rem;
+  margin: 0 0 1rem 0;
+}
+
+.lista {
+  background-color: yellowgreen;
+  padding: 1rem;
+  width: 10rem;
+}
+.lista ul {
+  color: #666;
+}
+.lista ul li {
+  list-style: none;
+}
+.lista ul li:hover {
+  color: #fabaca;
+}
+
+.btn, .btn-2 {
+  border: none;
+  background-color: burlywood;
+  color: rgb(119, 98, 71);
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+}
+.btn:hover, .btn-2:hover {
+  color: burlywood;
+  background-color: rgb(119, 98, 71);
+}
+
+.btn-2 {
+  border-radius: 4rem;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+@import "mixins";
+
+$otro-color: #666;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    @include estilo-texto(#333)
+}
+
+p {
+    @include estilo-texto() /* sin argumento usa el valor predeterminado */
+}
+
+.lista {
+    background-color: yellowgreen;
+    padding: 1rem;
+    width: 10rem;
+
+    ul {
+        color: $otro-color;
+
+        li {
+            list-style: none;
+
+            &:hover {
+                color: #fabaca;
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+@mixin estilo-texto($text-color: #fabaca) {
+    background-color: aquamarine;
+    color: $text-color;
+    padding: 2rem 4rem;
+    margin: 0 0 1rem 0;
+}
