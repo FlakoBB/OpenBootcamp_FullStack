@@ -1,0 +1,15 @@
+@use "sass:string"; //importamos la libreria
+@use "sass:math";
+@use "sass:color";
+
+//Funciones de String
+@debug "Hola"; // imprime en consola
+
+//Funciones de Math
+@debug math.$pi;
+
+//Funciones de Color
+$color: #26c9b3;
+
+@debug color.complement($color);
+$complemento: #c9263c;
