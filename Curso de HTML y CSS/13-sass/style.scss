@@ -1,8 +1,8 @@
 //mixins
-@import "sass/mixins";
+@use "sass/mixins";
 
 //estilos
-@import "sass/estilos";
+@use "sass/estilos";
 
 //componentes
-@import "sass/components"
+@use "sass/components"

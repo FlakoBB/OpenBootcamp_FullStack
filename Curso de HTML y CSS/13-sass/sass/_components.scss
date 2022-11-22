@@ -14,4 +14,9 @@
 .btn-2 {
     @extend .btn; //Hereda los estilos de .btn
     border-radius: 4rem;
+    border: 2px solid burlywood;
+    
+    &:hover {
+        border: 2px solid #44aa99
+    }
 }
