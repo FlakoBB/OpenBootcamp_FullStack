@@ -1,0 +1,65 @@
+* {
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.btn-main, .btn-main-s {
+  background-color: #2190bd;
+  font-size: 1rem;
+  padding: 0.5em;
+  border-radius: 0.6em;
+  border: none;
+  border: 2px solid #2190bd;
+  color: white;
+}
+.btn-main:hover, .btn-main-s:hover {
+  background-color: white;
+  color: #2190bd;
+}
+.btn-main-s {
+  font-size: 0.8rem;
+}
+
+.btn-sec, .btn-sec-s {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5em;
+  font-weight: 600;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  color: #2190bd;
+}
+.btn-sec-s {
+  font-size: 0.8rem;
+}
+
+.main-menu {
+  display: flex;
+  gap: 1.5rem;
+}
+.main-menu li {
+  list-style: none;
+  font-weight: 500;
+}
+.main-menu li a {
+  text-decoration: none;
+  color: black;
+}
+.main-menu li a:hover {
+  color: #2190bd;
+}
+
+.icon-sm {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+  font-size: 1.5rem;
+  padding: 0.5em 0.6em;
+  border-radius: 100%;
+}
+.icon-sm i {
+  color: #2190bd;
+}
+
+/*# sourceMappingURL=styles.css.map */
