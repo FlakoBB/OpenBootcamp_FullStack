@@ -62,4 +62,55 @@
   color: #2190bd;
 }
 
+.feature {
+  font-size: 1rem;
+  width: 18rem;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feature i {
+  font-size: 6rem;
+  color: #2190bd;
+}
+.feature .desc-feature {
+  text-align: center;
+  margin-bottom: 3em;
+}
+.feature .desc-feature .title {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.feature .desc-feature .desc {
+  color: #888;
+}
+.feature .cta {
+  color: #2190bd;
+  text-decoration: none;
+  font-weight: 500;
+}
+.feature .cta:hover {
+  color: #35acdc;
+}
+
+.icon-desc {
+  font-size: 1rem;
+  padding: 0.5em;
+  width: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon-desc i {
+  font-size: 6rem;
+  color: #2190bd;
+}
+.icon-desc .title {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
 /*# sourceMappingURL=styles.css.map */
