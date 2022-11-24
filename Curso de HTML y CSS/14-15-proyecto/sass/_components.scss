@@ -130,6 +130,7 @@ $main-color: #0075ff;
     padding: .5em;
     width: fit-content;
     @include flex-col-center();
+    text-align: center;
 
     i {
         font-size: 6rem;

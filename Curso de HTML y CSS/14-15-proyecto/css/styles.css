@@ -104,6 +104,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .icon-desc i {
   font-size: 6rem;
@@ -225,12 +226,12 @@
 .sec-kpis {
   width: 100%;
   background-color: #0075ff;
-  height: 10rem;
   color: white;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding: 3rem;
 }
 .sec-kpis .kpi {
   display: flex;
@@ -249,12 +250,9 @@
 }
 
 .sec-steps {
-  width: 100%;
-  padding: 4rem 10rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  max-width: 992px;
+  margin: auto;
+  padding: 4rem;
 }
 .sec-steps .intro {
   width: 100%;
@@ -272,8 +270,9 @@
 .sec-steps .steps-cards {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 2em;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
 }
 .sec-steps .steps-cards .step-separator {
   border-top: 1px solid #888;
@@ -290,6 +289,37 @@
 .sec-footer .footer-cta {
   width: 50%;
   padding: 4rem;
+}
+
+@media (max-width: 768px) {
+  .sec-home {
+    display: block;
+  }
+  .sec-home .home-cta {
+    width: 100%;
+  }
+  .sec-home .home-cta .title-cta {
+    font-size: 3rem;
+  }
+  .sec-features .features-cont .features {
+    width: 100%;
+  }
+  .sec-kpis {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .sec-steps .steps-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec-footer {
+    background-image: none;
+  }
+  .sec-footer .footer-cta {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
