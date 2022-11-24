@@ -2,7 +2,7 @@
 @use "sass:color";
 
 @mixin section-size {
-    max-width: 900px;
+    max-width: 992px;
     margin: auto;
     padding: 4rem;
 }
@@ -47,7 +47,7 @@
     @include section-size();
 
     .home-cta {
-        flex: 1;
+        width: 60%;
 
         .text-cta {
             font-size: 1.2rem;
@@ -137,7 +137,7 @@
     }
 }
 
-// Secion KPIs
+// Seccion KPIs
 .sec-kpis {
     width: 100%;
     background-color: comps.$main-color;
@@ -161,5 +161,39 @@
             color: #ffffff90;
             font-weight: 500;
         }
+    }
+}
+
+// Seccion Steps
+.sec-steps {
+    @include section-intro();
+    width: 100%;
+    padding: 4rem 10rem;
+    @include comps.flex-col-center;
+
+    .steps-cards {
+        display: flex;
+        align-items: center;
+        gap: 2em;
+        flex-wrap: wrap;
+
+        .step-separator {
+            border-top: 1px solid #888;
+            width: 3rem;
+        }
+    }
+}
+
+// Seccion Footer
+.sec-footer {
+    width: 100%;
+    background-image: url(../assets/img/bg.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-color: #f5f8ff;
+    
+    .footer-cta {
+        width: 50%;
+        padding: 4rem;
     }
 }
