@@ -1,6 +1,12 @@
 @use "components" as comps;
 @use "sass:color";
 
+@mixin section-size {
+    max-width: 900px;
+    margin: auto;
+    padding: 4rem;
+}
+
 // Barra de navegacion
 .nav {
     display: flex;
@@ -20,9 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 768px;
-    margin: auto;
-    padding: 4rem;
+    @include section-size();
 
     .home-cta {
         flex: 1;
@@ -41,6 +45,60 @@
 
         .title-cta {
             font-size: 4rem;
+        }
+    }
+}
+
+// Seccion Features
+.sec-features {
+    @include section-size();
+
+    .intro {
+        width: 100%;
+        text-align: center;
+        height: fit-content;
+        margin-bottom: 2rem;
+
+        .intro-title {
+            font-size: 2.2rem;
+        }
+
+        .intro-desc {
+            font-size: 1.2rem;
+            color: #888;
+        }
+    }
+
+    .features-cont {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        .features {
+            width: 40%;
+
+            .feature-blq {
+                display: flex;
+                align-items:flex-start;
+                gap: 1em;
+
+                .feature.title {
+                    font-size: 1.8rem;
+                    font-weight: 700;
+                }
+
+                .feature.desc {
+                    font-size: .8rem;
+                }
+            }
+        }
+
+        .imgn {
+            width: 60%;
+
+            img {
+                max-width: 100%;
+            }
         }
     }
 }
