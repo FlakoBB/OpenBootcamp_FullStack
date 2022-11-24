@@ -221,4 +221,30 @@
   flex-wrap: wrap;
 }
 
+.sec-kpis {
+  width: 100%;
+  background-color: #0075ff;
+  height: 10rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.sec-kpis .kpi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sec-kpis .kpi .kpi-number {
+  font-size: 4rem;
+  font-weight: 600;
+}
+.sec-kpis .kpi .kpi-desc {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5647058824);
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=styles.css.map */

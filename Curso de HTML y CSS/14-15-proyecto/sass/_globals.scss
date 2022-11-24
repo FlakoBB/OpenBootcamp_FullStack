@@ -136,3 +136,30 @@
         flex-wrap: wrap;
     }
 }
+
+// Secion KPIs
+.sec-kpis {
+    width: 100%;
+    background-color: comps.$main-color;
+    height: 10rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .kpi {
+        @include comps.flex-col-center;
+
+        .kpi-number {
+            font-size: 4rem;
+            font-weight: 600;
+        }
+
+        .kpi-desc {
+            font-size: .9rem;
+            color: #ffffff90;
+            font-weight: 500;
+        }
+    }
+}
