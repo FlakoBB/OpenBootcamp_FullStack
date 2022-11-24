@@ -7,6 +7,24 @@
     padding: 4rem;
 }
 
+@mixin section-intro {
+    .intro {
+        width: 100%;
+        text-align: center;
+        height: fit-content;
+        margin-bottom: 2rem;
+
+        .intro-title {
+            font-size: 2.2rem;
+        }
+
+        .intro-desc {
+            font-size: 1.2rem;
+            color: #888;
+        }
+    }
+}
+
 // Barra de navegacion
 .nav {
     display: flex;
@@ -100,5 +118,21 @@
                 max-width: 100%;
             }
         }
+    }
+}
+
+// Seccion Benefits
+.sec-benefits {
+    width: 100%;
+    @include section-intro();
+    padding: 4rem;
+    border-top: 1px solid #888;
+
+    .benefits-cards {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 }

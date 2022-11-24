@@ -195,4 +195,30 @@
   max-width: 100%;
 }
 
+.sec-benefits {
+  width: 100%;
+  padding: 4rem;
+  border-top: 1px solid #888;
+}
+.sec-benefits .intro {
+  width: 100%;
+  text-align: center;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+.sec-benefits .intro .intro-title {
+  font-size: 2.2rem;
+}
+.sec-benefits .intro .intro-desc {
+  font-size: 1.2rem;
+  color: #888;
+}
+.sec-benefits .benefits-cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 /*# sourceMappingURL=styles.css.map */
