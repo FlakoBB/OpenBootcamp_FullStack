@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Librery</title>
+</head>
+<body>
+    <section class="menu">
+        <ul>
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li>All Books</li>
+            <li>All Authors</li>
+        </ul>
+    </section>
+
+    <section class="content">
+        <h1>Librery xD</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae commodi labore id deserunt non odio voluptas ullam, impedit reprehenderit consectetur velit, nostrum quis voluptatum aliquid odit nobis. Quaerat, nam perferendis.</p>
+        <ul>
+            <li>Books: {{ num_books }}</li>
+            <li>Authors: {{ num_authors }}</li>
+            <li>Copies: {{ num_instances }}</li>
+            <li>Copies Available: {{ disponibles }}</li>
+        </ul>
+    </section>
+</body>
+</html>
