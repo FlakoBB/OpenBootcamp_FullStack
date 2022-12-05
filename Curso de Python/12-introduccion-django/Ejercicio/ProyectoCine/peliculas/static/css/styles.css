@@ -1,0 +1,55 @@
+.director_datos {
+  width: 16em;
+  padding: 1.5em;
+  background-color: red;
+  border-radius: 2em;
+}
+.director_datos .avatar_dir {
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+.director_datos .nom_director {
+  font-size: 1.4em;
+  text-align: center;
+}
+.director_datos .naci_dir {
+  font-size: 1.1em;
+  text-align: center;
+  margin: 1em 0;
+}
+.director_datos .ver_pelis {
+  width: 100%;
+  border: none;
+  padding: 0.6em;
+  font-size: 1em;
+  text-align: center;
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.titulo_principal {
+  width: 100%;
+  padding: 1.8em;
+}
+.titulo_principal .titulo {
+  font-size: 5em;
+  text-align: center;
+}
+
+.directores_cont {
+  width: 100%;
+  padding: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2em;
+}
+
+/*# sourceMappingURL=styles.css.map */

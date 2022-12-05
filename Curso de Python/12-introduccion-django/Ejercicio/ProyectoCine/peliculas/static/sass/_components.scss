@@ -1,0 +1,31 @@
+.director_datos {
+    width: 16em;
+    padding: 1.5em;
+    background-color: red;
+    border-radius: 2em;
+
+    .avatar_dir {
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+
+    .nom_director {
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    .naci_dir {
+        font-size: 1.1em;
+        text-align: center;
+        margin: 1em 0;
+    }
+
+    .ver_pelis {
+        width: 100%;
+        border: none;
+        padding: .6em;
+        font-size: 1em;
+        text-align: center;
+        cursor: pointer;
+    }
+}

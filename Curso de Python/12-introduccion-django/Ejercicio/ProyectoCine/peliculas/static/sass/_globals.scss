@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.titulo_principal {
+    width: 100%;
+    padding: 1.8em;
+    
+    .titulo {
+        font-size: 5em;
+        text-align: center;
+    }
+}
+
+.directores_cont {
+    width: 100%;
+    padding: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2em;
+}

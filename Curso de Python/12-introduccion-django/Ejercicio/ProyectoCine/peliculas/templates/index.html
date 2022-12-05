@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <title>Directores de Cine y sus Peliculas</title>
+</head>
+<body>
+    <header class="titulo_principal">
+        <h1 class="titulo">Directores de Cine</h1>
+    </header>
+    <section class="directores_cont">
+        {% for director in directores %}
+        <div class="director_datos">
+            <img src="https://cdn.pixabay.com/photo/2016/09/16/00/17/movie-1673022__340.jpg" alt="Director" class="avatar_dir">
+            <h3 class="nom_director">{{ director.nombre }}</h3>
+            <p class="naci_dir">{{ director.nacionalidad }}</p>
+            <button class="ver_pelis">Ver sus peliculas</button>
+        </div>
+        {% endfor %}
+    </section>
+</body>
+</html>
