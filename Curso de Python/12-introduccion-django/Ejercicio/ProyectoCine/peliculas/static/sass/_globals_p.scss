@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.datos_cont {
+    width: 100%;
+    height: 18em;
+    background-color: red;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+
+    .foto_dir {
+        align-self: stretch;
+    }
+
+    .datos_dir {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .nom_nac {
+            flex: 1;
+
+            .nombre_dir {
+                font-size: 4em;
+            }
+    
+            .nacionalidad_dir {
+                font-size: 2em;
+            }
+        }
+
+        .total_p {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .tot_p {
+                font-size: 1.8em;
+            }
+
+            .num_tot {
+                font-size: 3em;
+            }
+        }
+    }
+}
+
+.peliculas {
+    width: 100%;
+    padding: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2em;
+}

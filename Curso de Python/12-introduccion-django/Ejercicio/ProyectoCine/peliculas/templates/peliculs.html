@@ -4,15 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles_p.css' %}">
     <title>Director</title>
 </head>
 <body>
-    {% for titulo in titulos %}
-    <div class="tarjeta_pelicula">
-        <img src="" alt="PosterPelicula" class="poster_pelicula">
-        <h3 class="titulo">{{ titulo.titulo }}</h3>
-        <p class="descr">{{ titulo.descripcion }}</p>
-    </div>
-    {% endfor %}
+    <section class="datos_cont">
+        <img src="https://cdn.pixabay.com/photo/2016/09/16/00/17/movie-1673022__340.jpg" alt="foto_dir" class="foto_dir">
+        <div class="datos_dir">
+            {%  for dato in datos %}
+            <div class="nom_nac">
+                <h2 class="nombre_dir">{{ dato.nombre }}</h2>
+                <p class="nacionalidad_dir">{{ dato.nacionalidad }}</p>
+            </div>
+            <div class="total_p">
+                <h4 class="tot_p">Total peliculas:</h4><sapn class="num_tot">{{ total }}</sapn>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="peliculas">
+        {% for titulo in titulos %}
+        <div class="tarjeta_pelicula">
+            <img src="https://cdn.pixabay.com/photo/2018/04/06/14/47/movie-poster-3295992__340.jpg" alt="PosterPelicula" class="poster_pelicula">
+            <h3 class="titulo">{{ titulo.titulo }}</h3>
+            <p class="descr">{{ titulo.descripcion }}</p>
+        </div>
+        {% endfor %}
+    </section>
 </body>
 </html>

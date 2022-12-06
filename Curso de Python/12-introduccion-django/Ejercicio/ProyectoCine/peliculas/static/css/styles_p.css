@@ -1,0 +1,81 @@
+.tarjeta_pelicula {
+  width: 18em;
+  background-color: blue;
+  border-radius: 2em;
+  padding: 2em;
+  color: white;
+  text-align: center;
+}
+.tarjeta_pelicula .poster_pelicula {
+  width: 100%;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  margin-bottom: 2em;
+}
+.tarjeta_pelicula .titulo {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.tarjeta_pelicula .descr {
+  font-size: 1.2em;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.datos_cont {
+  width: 100%;
+  height: 18em;
+  background-color: red;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+}
+.datos_cont .foto_dir {
+  align-self: stretch;
+}
+.datos_cont .datos_dir {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.datos_cont .datos_dir .nom_nac {
+  flex: 1;
+}
+.datos_cont .datos_dir .nom_nac .nombre_dir {
+  font-size: 4em;
+}
+.datos_cont .datos_dir .nom_nac .nacionalidad_dir {
+  font-size: 2em;
+}
+.datos_cont .datos_dir .total_p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.datos_cont .datos_dir .total_p .tot_p {
+  font-size: 1.8em;
+}
+.datos_cont .datos_dir .total_p .num_tot {
+  font-size: 3em;
+}
+
+.peliculas {
+  width: 100%;
+  padding: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2em;
+}
+
+/*# sourceMappingURL=styles_p.css.map */
