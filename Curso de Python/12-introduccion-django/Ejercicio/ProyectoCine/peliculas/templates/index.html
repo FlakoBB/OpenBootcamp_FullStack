@@ -17,7 +17,10 @@
             <img src="https://cdn.pixabay.com/photo/2016/09/16/00/17/movie-1673022__340.jpg" alt="Director" class="avatar_dir">
             <h3 class="nom_director">{{ director.nombre }}</h3>
             <p class="naci_dir">{{ director.nacionalidad }}</p>
-            <button class="ver_pelis">Ver sus peliculas</button>
+            <form action="director/" method="POST">{% csrf_token %}
+                <input type="hidden" value="{{ director.id }}" id="dir_id" name="dir_id">
+                <button type="submit" class="ver_pelis">Ver sus peliculas</button>
+            </form>
         </div>
         {% endfor %}
     </section>

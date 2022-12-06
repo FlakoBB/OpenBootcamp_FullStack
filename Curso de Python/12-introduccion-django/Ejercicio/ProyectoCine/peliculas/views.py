@@ -1,5 +1,4 @@
 from django.shortcuts import render
-import sqlite3
 from .models import Directores, Peliculas
 # Create your views here.
 def index(request):
@@ -12,5 +11,17 @@ def index(request):
         context={
             'directores': directores,
             'num_peliculas': peliculas,
+        }
+    )
+
+def pelisDirector(request):
+    id_director = request.POST['dir_id']
+    titulos = Peliculas.objects.filter(director_id=id_director)
+
+    return render (
+        request,
+        'peliculs.html',
+        context={
+            'titulos': titulos,
         }
     )
