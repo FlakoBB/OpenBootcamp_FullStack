@@ -1,0 +1,17 @@
+{
+  "name": "proyecto-ejercicio",
+  "version": "1.0.0",
+  "description": "Primer ejercicio del curso de JavaScript Básico",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ejercicio",
+    "NodeJs",
+    "OpenBootcamp"
+  ],
+  "author": "FlakoBB",
+  "license": "ISC"
+}

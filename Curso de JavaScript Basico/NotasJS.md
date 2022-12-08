@@ -1,26 +1,31 @@
-# Hola
+# JavaScript Básico
 
-## Hola
+**Lenguaje de programacion interpretado**
 
-### Hola
+Es un lenguaje originalmente creado para ser ejecutado en los navegadores web.
 
-#### Hola
 
-##### Hola
+### NodeJS
 
-###### Hola
+Es un entorno en tiempo de ejecucion multiplatadforma que permite que JavaScript sea ejecutado en un celular, una PC, etc.
 
-```JavaScript
-console.log('flako :>> ', flako);
 
-objeto1 = {
-    'flako': flako,
-    'f': {
-        'ff': ff,
-        'kk': {
+### NPM
 
-        }
-    }
-}
-console.table(objeto1);
+__Node Package Manager__
+
+Gestiona los modulos que tiene NodeJS
+
+
+## Proyectos en NodeJS (NPM)
+
+- iniciar un proyecto en NodeJS, el sigiente comando crea el package.json con los datos del proyecto:
+```cmd
+npm init
+```
+
+- Dentro del package.json podemos insertar los scripts y para ejecutarlos usamos el comando:
+
+```
+npm run nombreScript
 ```
