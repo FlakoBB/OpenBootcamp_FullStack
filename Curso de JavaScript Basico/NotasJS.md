@@ -29,3 +29,11 @@ npm init
 ```
 npm run nombreScript
 ```
+
+### Tipado en JS
+
+Tipado Inferido
+
+###### Tipos en JS
+
+__Primitivos:__ Number, String, Boolean, Null, Undefined
