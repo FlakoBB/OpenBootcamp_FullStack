@@ -1,6 +1,6 @@
 const array = (1, 2, 3, "hola", {id: 10}, 2, "hola")
 
-const miSet = new Set(array)
+const miSet = new Set([array])
 console.log(miSet)
 
 // .add() -> permite añadir un nuevo elemento al set
