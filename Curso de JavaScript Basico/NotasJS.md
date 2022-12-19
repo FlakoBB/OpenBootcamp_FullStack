@@ -106,3 +106,87 @@ prompt("Escribe un dato:")
 ```
 
 Esto mandara un mensaje al usuario con la ´posibilidad de escribir algo y mandarlo o guardarlo en una variable.
+
+
+
+### Funciones
+
+Sirven para crear bloques de codigo cin una utilizacion especifica, por ejemplo:
+
+```JavaScript
+function nombreFuncion(parametro1, parametro2, ..., parametroN) {
+    // cuerpo de la funcion
+    return // el resultado que se obtiene con la funcion
+}
+```
+
+para invocar a una funcion se hace de la siguiente manera:
+
+```JavaScript
+nombreFuncion("parametro") // entre parentecis le pasas los parametros
+```
+
+
+#### Funciones tipo flecha
+
+```JavaScript
+// declaracion:
+const variable = parametro => // codigo de la funcion
+
+// invocacion:
+variable("parametros")
+```
+
+#### Carga y sobrecarga de funciones
+
+**Carga:** cuando una funcion llama a otra funcion.
+```JavaScript
+function primeraFuncion(parametro) {
+    segundaFuncion("parametro")
+}
+
+function segundaFuncion(parametro) {
+    // codigo de la segunda funcion
+}
+```
+
+**Sobrecarga:** cuando una funcion se llama a si misma (sin poder parar).
+```JavaScript
+function otraFuncion(parametro) {
+    otraFuncion("parametro")
+}
+```
+
+
+#### Funciones asincronas y promesas
+
+Las **funciones asincronas** son funciones que pueden no ejecutarse segun la promesa definida.
+
+Una **promesa** es una funcion que evalua si si cumple o no una condicion, misma que indicará si la funcion asincrona se ejecuta o no.
+
+```JavaScript
+function funAsincrona() {
+    // normalmente llama a una base de datos externa
+    // puede generar algun error
+}
+
+const promesa = new Promise((resolve, reject) => {
+    if(condicion) {
+        resolve()
+    } else {
+        reject()
+    }
+})
+```
+
+
+#### Funciones generadoras
+
+Las fun ciones generadoras tienen una sintaxis similar a las funciones normales, pero a estas se le agrega un asterisco despues de la palabra reservada function:
+```JavaScript
+function* generadora(){
+    //codigo
+}
+```
+
+Este tipo de funciones nos sirve para generar datos continuos cada vez que se invoca.
