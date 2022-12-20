@@ -190,3 +190,48 @@ function* generadora(){
 ```
 
 Este tipo de funciones nos sirve para generar datos continuos cada vez que se invoca.
+
+
+## Errores
+
+Los errores más comunes en JavaScript:
+
+    - InternalError
+    - SyntaxError
+    - TypeError
+    - RangeError
+    - ReferenceError
+
+JavaScript nos permite gestionar errores generando un error personalizado con la palabra reservada **throw** y usando **try** y **catch**
+
+```JavaScript
+const funcion = valor => {
+    if(condicionQuePuedaGenerarError){
+        // si no hay error se ejecuta
+        return
+    }
+    // si hay error lanzamos:
+    throw new Error("No se cumplio la condicion")
+}
+
+// Try Catch
+
+try { // intenta
+    // ponemos el codigo que podria generar error
+} catch (e) {
+    // en caso de existir error en Try, se ejecuta catch
+    console.error(e) // en -e- se guarda la informacion del error que se presenta
+}
+```
+
+
+## Gestion de Logs en NodeJS
+
+Para la gestion de logs usaremos la libreria [winston](https://www.npmjs.com/package/winston).
+
+Primero debemos instalarlo en la misma carpeta donde hayamos iniciado nuestro proyecto de NodeJS, para instalarlo ejecutams desde la treminal:
+```
+npm i winston
+```
+
+Al instalarlo nos creara una carpeta con todos los modulos necesarios para gestionar nuestro proyecto.
