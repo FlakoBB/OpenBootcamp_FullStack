@@ -109,7 +109,7 @@ Esto mandara un mensaje al usuario con la ´posibilidad de escribir algo y manda
 
 
 
-### Funciones
+## Funciones
 
 Sirven para crear bloques de codigo cin una utilizacion especifica, por ejemplo:
 
