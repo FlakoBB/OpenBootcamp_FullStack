@@ -1,0 +1,1 @@
+Las carpetas **Librerias-Externas** y **modulos-externos** son exactamente el mismo proyecto con la diferencia de la version instalada de __axios__ en **Librerias-Externas** se usa la version __1.2.1__ y en **modulos-externos** se instalo la version __0.26.0__; en la primera genera un error mientras que en la segunda corre todo de forma correcta.
