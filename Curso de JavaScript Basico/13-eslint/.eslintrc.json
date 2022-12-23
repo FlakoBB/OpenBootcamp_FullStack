@@ -1,0 +1,12 @@
+// archivo de configuracion de reglas de ESLint
+
+{
+    "rules": {
+        //asdsadasdasds
+        "eqeqeq": "warn",
+        "strict": "off",
+        "quotes": ["error", "double"],
+        "semi": ["error", "never"],
+        "no-dupe-keys": "error"
+    }
+}

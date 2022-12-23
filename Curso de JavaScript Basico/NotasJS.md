@@ -235,3 +235,32 @@ npm i winston
 ```
 
 Al instalarlo nos creara una carpeta con todos los modulos necesarios para gestionar nuestro proyecto.
+
+
+
+## **ESLint**
+
+ESLint es una libreria que nos permite declarar "reglas" par tener una mejor consistencia programando con JavaScript; estas reglas pueden ser: usar siempre comillas dobles, no usar punto y coma, tipo de declaracion de variables, etcetera.
+
+Estas reglas se definen un archivo nombrado __.eslintrc.*__ (el asterisco indica diferentes tipos de archivos aceptados: .json, .js, etc...)
+
+Para crear estas reglas debemos estar en un proyecto _npm_ e instalar ESLint en el proyecto:
+
+```powershell
+npm i -D eslint
+```
+
+Despues debemos iniciar la configuracion:
+
+```powershell
+npm init @eslint/config
+```
+
+Una vez configuradas las reglas, podemos agregar algunos scripts en el _package.json_ del proyecto para que nos lanse los errores existentes y los arregle automaticamente:
+
+```JSON
+"scripts": {
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix ."
+  }
+```
