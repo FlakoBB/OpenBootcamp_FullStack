@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web con JS</title>
+</head>
+<body>
+    <h1>Hola</h1>
+    <p id="parrafo">Hola Mundo</p>
+
+    <!-- Librerias de terceros -->
+    <!-- A root element for TypeIt to target. -->
+    <span id="myElement"></span>
+
+    <!-- The script itself, loaded AFTER your root element. -->
+    <script src="https://cdn.jsdelivr.net/npm/typeit@8.7.1/dist/typeit.min.js"></script>
+    <script>
+        new TypeIt("#myElement", {
+            strings: "This is what will be typed!",
+        }).go();
+    </script>
+</body>
+</html>
