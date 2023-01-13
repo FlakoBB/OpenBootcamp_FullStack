@@ -1,0 +1,19 @@
+.contenedor {
+    background-color: bisque;
+    padding: 1rem;
+}
+
+.seccion {
+    background-color: coral;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.parrafo {
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+
+.parrafo.drag {
+    opacity: .2;
+}
