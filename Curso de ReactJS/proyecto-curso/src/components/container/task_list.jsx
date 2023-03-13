@@ -3,6 +3,9 @@ import { LEVELS } from '../../models/levels.enum';
 import { Task } from '../../models/task.class';
 import TaskComponent from '../pure/task';
 
+// Estilos
+import './../../styles/task.scss'
+
 const TaskListComponent = () => {
 
     const deafaultTask = new Task('Example', 'Default description', false, LEVELS.NORMAL)
@@ -26,7 +29,7 @@ const TaskListComponent = () => {
 
     return (
         <div>
-            <div>Your tasks:</div>
+            <h1>Your tasks:</h1>
             {/* Hacer un for/map para renderizar una lista contodas las tareas */}
             <TaskComponent task={ deafaultTask }></TaskComponent>
         </div>
