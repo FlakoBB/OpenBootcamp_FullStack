@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 // import Ejemplo4 from './hooks/ejemplo4';
 // import MiComponenteConContexto from './hooks/ejemplo3';
 import TaskListComponent from './components/container/task_list';
@@ -9,8 +11,8 @@ import TaskListComponent from './components/container/task_list';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      {/* <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" /> */}
         <TaskListComponent></TaskListComponent>
         {/* <Ejemplo1></Ejemplo1> */}
         {/* <Ejemplo2></Ejemplo2> */}
@@ -20,7 +22,7 @@ function App() {
           <h3>Contenido del props.chldren</h3>
           <p>Hola Mundo</p>
         </Ejemplo4> */}
-      </header>
+      {/* </header> */}
     </div>
   );
 }
