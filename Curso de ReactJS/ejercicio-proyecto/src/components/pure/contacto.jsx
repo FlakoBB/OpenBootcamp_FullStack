@@ -3,20 +3,27 @@ import PropTypes from 'prop-types';
 import { Contacto } from '../../models/contacto.class';
 
 
-const ContactoCA = ({ contacto }) => {
+const ContactoCA = ({ contacto, eliminar, conexion }) => {
     return (
-        <div>
-            <h2>Nombre: { contacto.nombre }</h2>
-            <h2>Apellido: { contacto.apellido }</h2>
-            <h3>E-mail: { contacto.email }</h3>
-            <h3>Conectado: { contacto.conectado ? 'En Línea' : 'No Disponible' }</h3>
-        </div>
+        <li style={ {listStyle: 'none'} }>
+            <div>
+                <h3>{ contacto.nombre } { contacto.apellido }</h3>
+                <p><b>E-mail:</b> { contacto.email }</p>
+                <p><b>Conectado:</b> { contacto.conectado ? 'En Línea' : 'No Disponible' }</p>
+            </div>
+            <div>
+                <button onClick={ () => conexion(contacto) }>Con</button>
+                <button onClick={ () => eliminar(contacto) }>borrar</button>
+            </div>
+        </li>
     );
 };
 
 
 ContactoCA.propTypes = {
-    contacto: PropTypes.instanceOf(Contacto)
+    contacto: PropTypes.instanceOf(Contacto),
+    eliminar: PropTypes.func.isRequired,
+    conexion: PropTypes.func.isRequired
 };
 
 
