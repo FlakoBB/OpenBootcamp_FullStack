@@ -1,6 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import ContactoMuestra from './components/container/contacto_muestra';
+// import ContactoMuestra from './components/container/contacto_muestra';
+import CuadroColores from './components/pure/cuadroColores';
 // import Clock from './hooks/lifeCycleClass';
 // import ClockFunction from './hooks/lifeCycleFunc';
 
@@ -9,7 +10,8 @@ function App() {
     <div className="App">
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" /> */}
-        <ContactoMuestra></ContactoMuestra>
+        {/* <ContactoMuestra></ContactoMuestra> */}
+        <CuadroColores></CuadroColores>
         {/* <Clock></Clock> */}
         {/* <ClockFunction></ClockFunction> */}
       {/* </header> */}
