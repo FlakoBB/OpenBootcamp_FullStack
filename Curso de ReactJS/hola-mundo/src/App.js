@@ -2,8 +2,9 @@
 // Importacion de bootstrap
 import 'bootstrap/dist/css/bootstrap.css'
 import './App.css';
+import LoginFormik from './components/pure/forms/loginFormik';
 // import Father from './components/container/father';
-import OptionalRender from './components/pure/optionalRender';
+// import OptionalRender from './components/pure/optionalRender';
 // import GreetingStyled from './components/pure/greetingStyled';
 // import Greeting from './components/pure/greeting'
 // import GreetingF from './components/pure/greetingF'
@@ -18,7 +19,8 @@ function App() {
         {/* <GreetingStyled name='Flako' /> */}
         {/* <Father></Father> */}
       {/* </header> */}
-      <OptionalRender></OptionalRender>
+      {/* <OptionalRender></OptionalRender> */}
+      <LoginFormik></LoginFormik>
     </div>
   );
 }
