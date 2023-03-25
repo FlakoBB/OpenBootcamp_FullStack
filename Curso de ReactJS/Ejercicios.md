@@ -113,3 +113,13 @@ Dentro del componente crearéis varios métodos de captura del ratón que harán
  - Un método para que cuando salga el ratón del componente se detenga por completo el cambio de color.
 
  - Por último, un método en el que cuando se pulsa dos veces en el componente, se tiene que detener el cambio de color.
+
+ ---
+
+ ## **Ejercicio 5**
+
+ Partiendo del proyecto final, deberéis utilizar crear un formulario con el que crear tareas. Para hacer esto usaréis:
+
+ - Formik para el formulario.
+
+ - Yup para las validaciones.
