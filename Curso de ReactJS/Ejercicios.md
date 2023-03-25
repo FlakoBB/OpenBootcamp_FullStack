@@ -114,11 +114,11 @@ Dentro del componente crearéis varios métodos de captura del ratón que harán
 
  - Por último, un método en el que cuando se pulsa dos veces en el componente, se tiene que detener el cambio de color.
 
- ---
+---
 
  ## **Ejercicio 5**
 
- Partiendo del proyecto final, deberéis utilizar crear un formulario con el que crear tareas. Para hacer esto usaréis:
+ Partiendo del proyecto final, deberéis crear un formulario para registrar contactos. Para hacer esto usaréis:
 
  - Formik para el formulario.
 

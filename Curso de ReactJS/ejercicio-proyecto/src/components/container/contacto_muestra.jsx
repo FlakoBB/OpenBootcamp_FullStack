@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Contacto } from '../../models/contacto.class';
 import ContactoCA from '../pure/contacto';
+import NewContactFormik from '../pure/forms/newContactFormik';
 import NuevoContacto from '../pure/forms/nuevoContacto';
 
 const ContactoMuestra = () => {
@@ -36,6 +37,9 @@ const ContactoMuestra = () => {
             <NuevoContacto
                 registrar={ agregarContacto }
             ></NuevoContacto>
+            <NewContactFormik
+                registrar={ agregarContacto }
+            />
             <ul>
                 {
                     contactos.map((contacto, index) => {
