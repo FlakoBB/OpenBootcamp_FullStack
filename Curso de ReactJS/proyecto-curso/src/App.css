@@ -43,3 +43,11 @@ body {
     transform: rotate(360deg);
   }
 }
+
+
+colores {
+  color: rgb(225, 94, 174);
+  color: rgb(194, 149, 251);
+  color: rgb(127, 200, 255);
+  color: rgb(48, 244, 255);
+}
