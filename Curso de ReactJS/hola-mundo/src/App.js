@@ -2,7 +2,8 @@
 // Importacion de bootstrap
 import 'bootstrap/dist/css/bootstrap.css'
 import './App.css';
-import FetchExample from './components/pure/FetchExample';
+import AxiosExample from './components/pure/AxiosExample';
+// import FetchExample from './components/pure/FetchExample';
 // import ObservableExamample from './components/pure/ObservableExamample';
 // import AsyncExample from './components/pure/AsyncExample';
 // import LoginFormik from './components/pure/forms/loginFormik';
@@ -26,7 +27,8 @@ function App() {
       {/* <LoginFormik></LoginFormik> */}
       {/* <AsyncExample></AsyncExample> */}
       {/* <ObservableExamample></ObservableExamample> */}
-      <FetchExample/>
+      {/* <FetchExample/> */}
+      <AxiosExample/>
     </div>
   );
 }
