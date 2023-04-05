@@ -2,7 +2,8 @@
 // Importacion de bootstrap
 import 'bootstrap/dist/css/bootstrap.css'
 import './App.css';
-import AxiosExample from './components/pure/AxiosExample';
+import AxiosCRUDExample from './components/pure/AxiosCRUDExample';
+// import AxiosExample from './components/pure/AxiosExample';
 // import FetchExample from './components/pure/FetchExample';
 // import ObservableExamample from './components/pure/ObservableExamample';
 // import AsyncExample from './components/pure/AsyncExample';
@@ -28,7 +29,8 @@ function App() {
       {/* <AsyncExample></AsyncExample> */}
       {/* <ObservableExamample></ObservableExamample> */}
       {/* <FetchExample/> */}
-      <AxiosExample/>
+      {/* <AxiosExample/> */}
+      <AxiosCRUDExample/>
     </div>
   );
 }
