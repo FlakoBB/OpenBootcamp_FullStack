@@ -16,7 +16,7 @@ import AxiosCRUDExample from './components/pure/AxiosCRUDExample';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container p-4">
       {/* <header className="App-header"> */}
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         {/* <Greeting name="FlakoBB"></Greeting> */}
