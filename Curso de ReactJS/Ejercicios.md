@@ -145,3 +145,18 @@ Debe haber un botón que permita al usuario generar nuevos chistes.
 También debe mostrarse un par de botones con Material UI que permitan votar (positivamente o negativamente un chiste).
 
 Se debe mostrar el número de chistes te "han gustado" y cuántos "te han disgustado".
+
+---
+
+## **Ejercicio 8**
+
+Utiliza useReducer y useContext para poder gestionar tareas en un proyecto de React. El proyecto debe permitir:
+
+ - Crear tareas
+
+ - Borrar tareas
+
+ - Filtrar tareas
+
+Repo para uso de useReducer y useContext: [ver en GitLab](https://gitlab.com/masajo/ob-react-usereducer)
+
